@@ -10,6 +10,13 @@ namespace TupleProposal
     {
         static void Main(string[] args)
         {
+            var a = (1, 2);
+            Console.WriteLine(a.GetType());
+
+            var b = (1);
+            Console.WriteLine(b.GetType());
+
+            //var c = (1,); // Parse Error
         }
     }
 }
